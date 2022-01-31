@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+clinlabstaffing.com	TRUE	/	FALSE	1999999999	PHPSESSID	848a429b67be183d86cb9cfc7e1ad2fe
+
