@@ -1,0 +1,355 @@
+/*
+Theme Name:  Clinlab Staffing
+Theme URI:   https://clinlab.tfgdev.co
+Version:     1.0
+Description: A child theme of Divi. This is a custom child theme created for our site Clinlab Staffing.
+Author:      The Franchise Group
+Author URI:  https://clinlab.tfgdev.co
+Template:    Divi
+*/
+
+
+/***********************************************************************
+Caution: do not remove this to keep Divi Children Engine always updated 
+Divi Children Engine version: 1.0.3
+***********************************************************************/
+
+/*------------------------------[FONT ICONS]-----------------------------*/
+/*--[Created by Divi Children, http://divi4u.com/divi-children-plugin/]--*/
+/*-----------------------------------------------------------------------*/
+
+.icon_tags, .icon_profile, .icon_chat, .icon_clipboard, .icon_calendar {
+	font-family: 'ETmodules';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+	color: #318EC3;
+}
+.icon_tags:before {
+	content: "\e07c";
+	padding: 0px 5px 0 0;
+}
+.icon_profile:before {
+	content: "\e08a";
+	padding: 0 5px 0 0;
+}
+.icon_chat:before {
+	content: "\e066";
+	padding: 0 5px 0 20px;
+}
+.icon_clipboard:before {
+	content: "\e0e6";
+	padding: 0 5px 0 20px;
+}
+.icon_calendar:before {
+	content: "\e023";
+	padding: 0 5px 0 20px;
+}
+
+/*- YOU CAN INCLUDE THE CUSTOM CODE FOR YOUR CHILD THEME BELOW THIS LINE-*/
+
+
+.et_pb_member_position {padding-bottom: 15px !important; color: #ae4542; font-style:italic;}
+.et_pb_team_member_description h4 {font-weight: bold;}
+.et_pb_team_member_description p{line-height: 24px;}
+.et_pb_team_member_image img {border-radius: 50%;box-shadow: 0 5px 10px #999;}
+.et_pb_team_member_description {text-align: center; padding-top: 30px;}
+
+
+.et_pb_toggle_open .et_pb_toggle_title:before {
+	display: block !important;
+	content: "\e04f";
+}
+
+.page-hero-template h1{letter-spacing: 1px;}
+.et_pb_fullwidth_header_subhead {font-size: 20px !important;}
+
+
+/*------------------------------------------------*/
+/*-----------------[BASIC STYLES]-----------------*/
+/*------------------------------------------------*/
+#et_mobile_nav_menu {display: block;}
+#top-menu-nav {display: none;}
+#logo_container {display: none;}
+
+/* Increase width of vertical navigation */
+@media (min-width: 981px) {
+.et_vertical_nav #page-container #main-header{
+	width:8%;}
+}
+#main-header {border-right: 6px solid #b9c6ba;}
+
+
+#menu-social-media-nav a{color:#89a1ad !important; text-align: center;}  
+span.mobile_menu_bar:before {color: #1a132c !important;}     
+.breadcrumbs {color: #e6e6bf; font-size: 12px; text-transform: uppercase; font-weight: bold;}
+.breadcrumbs a {color: #fff;}
+
+.testi-text {display: none;}
+
+/*------------------------------------------------*/
+/*---------------[MAIN LAYOUT INFO]---------------*/
+/*------------------------------------------------*/
+
+.homepage-large-text {position: relative; top: -80px !important; height: 30px !important;}
+.image-phone-1 {position: relative; top: -120px;}
+.top-hero .et_pb_fullwidth_header_container{padding-top: 80px;}
+.et_fixed_nav.et_show_nav #page-container header.et-fb-tabs-outer, div#page-container header.et-fb-tabs-outer { width: 100%;}
+/*------------------------------------------------*/
+/*---------------[Charitable]---------------------*/
+/*------------------------------------------------*/
+.scrollme {font-size: 200px; white-space:nowrap; 
+color: #f7f7f7 !important; letter-spacing: -10px;
+overflow-x: hidden; padding: 12% 0;}
+.charity-text {padding-bottom: 10% !important;}
+
+/*------------------------------------------------*/
+/*-------------------[Homepage Testimonials]-------------------*/
+/*------------------------------------------------*/
+.theme_4 .fa {display: none !important;}
+.theme_4 .testi-wrapper .quotes .quote-content a{color: #1a132b !important;font-weight: 900;text-decoration:none;line-height: 35px;}
+.theme_4 .testi-wrapper .quotes .quote-content{width: 60%; margin: 0 auto;}
+.theme_4 .testi-wrapper .testi-details .testi-text .testi-name{font: 13px/15px 'PTSansBold', arial, helvetica, sans-serif;text-transform: uppercase; letter-spacing: 4px;color: #89a1ad !important;font-weight:bold;}
+
+.theme_4 .testi-wrapper .quotes .quote-content a{ font-size: 20px !important;}
+.theme_4 .testi-wrapper .testi-details .testi-text span.testi-name{color: #89a1ad !important;}
+
+
+/*------------------------------------------------*/
+/*---------------------[FOOTER]-------------------*/
+/*------------------------------------------------*/
+#main-footer {display: none;}
+#footer-section a{color: #fff !important;}
+#footer-copyright-text {text-transform: uppercase; color: #e9f2f7; font-weight: 700; font-size: 11px;}
+#footer-copyright-links {text-transform: uppercase; color: #e9f2f7;}
+.footer-social-icons {padding-top: 15px;}
+.footer-social-icons i{float: left; padding-right: 20px; color: #fff !important;}
+.footer-social-icons .chat-button {display: none;}
+.footer-mobile-svg img {float: left; display: block;
+ width: 30%;border: 1px solid #fff !important; margin-right: 10px;
+ padding: 10px 10px 10px 10px;}
+.footer-columns .et_pb_text_9 {clear: both;}
+.footer-menu-column li.menu-item-2146 ul.sub-menu{display: none !important;}
+.footer-menu-column li.menu-item-2154 ul.sub-menu{display: none !important;}
+/*------------------------------------------------*/
+/*--------------------[ABout Echo Page]-------------------*/
+/*------------------------------------------------*/
+.about-image-black-box {z-index: 1;}
+.about-black-box {position: absolute; z-index: 2; margin-top: -250px; margin-left: 150px;}
+
+/*------------------------------------------------*/
+/*-----------------[Job Form]---------------------*/
+/*------------------------------------------------*/
+.job-manager-form fieldset {border: none;}
+.job-manager-form label {color: #000; font-size: 14px; text-transform: uppercase;}
+.job-manager-form input {padding: 10px !important; font-size: 14px;}
+.job-manager-form .description {color: #999; font-style: italic;}
+.job-manager-form h2 {text-transform: uppercase; border-bottom: 1px solid #ccc; margin-top: 10%;margin-bottom: 10%;}
+.job-manager-form .button {text-transform: uppercase;font-size: 16px; border: none; 
+background:#ae4542 !important; color: #fff; font-weight: bold;transition: all 0.3s ease 0s; padding: 13px 25px !important;}
+.job-manager-form .button:hover {cursor: pointer; background-color: #000 !important;}
+.job-manager-form .account-sign-in .button{background: #fff !important; color: #E1842C;}
+.job_listing .post-meta {display: none;}
+.job_listing .entry-title{text-transform: uppercase; font-weight: bold;border-bottom: 1px solid #e9ecec;}
+ul.job-listing-meta li{list-style-type: none !important; padding: 0px;}
+.job-listing-meta {border-bottom: 1px solid #e9ecec;padding-top: 20px !important;}
+
+.job_description ul li {border-bottom: 1px solid #e9ecec; padding: 10px 0;font-style: italic;list-style-type: none;}
+.job_description ul li::before {content: " - ";  padding-right: 10px;}
+.job_description {color: #5f727a;}
+
+
+.search_jobs input{padding: 10px; font-size: 14px;}
+.search_jobs .search_submit input{background-color:#ae4542; color: #fff; text-transform: uppercase; font-weight:Bold;}
+.search_jobs .search_submit input:hover {background-color:#8e3835;cursor: pointer;}
+
+.job-type {color: #ae4542 !important;}
+.single_job_listing .job-type {background-color: #ae4542 !important; color: #fff !important; }
+/*------------------------------------------------*/
+/*-----------------[Partners]------------------*/
+/*------------------------------------------------*/
+
+.partners-logos div div{width: 120px;height: 120px;display: flex;align-items: center;justify-content: center;text-align: center;}
+.partners-logos .et_pb_image_wrap,
+.partners-logos a {
+	width: 100%;
+}
+.partners-logos img {display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;}
+
+.partners-logos img:hover{  -webkit-transform: translateY(-8px);transform: translateY(-8px);}
+
+/*------------------------------------------------*/
+/*-------------------[Solutions]------------------*/
+/*------------------------------------------------*/
+
+.imagezoom{      
+  overflow:hidden;     
+
+}
+
+.solution img, .solution .et_pb_button{
+  transition:all 0.5s; 
+  -moz-transition:all 0.5s; 
+  -webkit-transition:all 0.5s; 
+}
+  
+.solution:hover img, .solution:hover .et_pb_button {
+  transform:scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform:scale(1.1);
+}
+
+.text-white-box {margin-top: 120px;}
+/*------------------------------------------------*/
+/*------------------[Service Options]-----------------*/
+/*------------------------------------------------*/
+.so-padding {padding: 8% 20px 0px 2%}
+
+
+
+/*------------------------------------------------*/
+/*---------------[RESPONSIVE LAYOUTS]-------------*/
+/*------------------------------------------------*/
+
+@media only screen and ( max-width: 1180px ) {
+	.text-white-box {margin-top: 250px;}
+	.so-padding {padding: 6% 20px 0px 2%}
+
+}
+
+
+
+/*-------------------[768px]------------------*/
+@media only screen and ( max-width: 980px ) {
+.so-padding {padding: 8% 4% 8% 4%}
+.footer-columns .et_pb_column .et_pb_button {font-size: 12px !important;}
+.footer-columns .et_pb_column_9 {padding-left: 5%; line-height: 18px;}
+.footer-copyright-links {text-align: center !important;}
+.image-phone-1 {postition: relative; top: -100px; width: 80% !important;}
+.image-phone-1-text {top: -90px;}
+div.testimonial-bg {background-size: 500px 230px;}
+.about-black-box {position: relative; z-index: 2; margin-top: 10px; margin-left: 0px;margin: 0 auto;}
+.scrollme {font-size: 100px; letter-spacing: 0px;}
+.charity-text p{text-align: center !important;}
+.charity-text {padding-bottom: 40% !important;}
+/*** wrap row in a flex box ***/
+.custom_row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+-webkit-flex-wrap: wrap; /* Safari 6.1+ */
+flex-wrap: wrap;
+}
+ 
+/*** custom classes that will designate the order of columns in the flex box row ***/
+.stack2 {
+-webkit-order: 1;
+order: 1;
+}
+ 
+.stack1 {
+-webkit-order: 2;
+order: 2;
+}
+
+.consult-2 {
+-webkit-order: 1;
+order: 1;
+}
+
+.consult-1 {
+-webkit-order: 2;
+order: 2;
+}
+
+.consult-3 {
+-webkit-order: 3;
+order: 3;
+}
+
+.consult-4 {
+-webkit-order: 1;
+order: 1;
+}
+	.text-white-box {margin-top: -0px;}
+}
+
+@media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
+.solutions-phone img {width: 50% !important;}
+.solutions-computer img {width: 50% !important; float: right;}
+.text-white-box p{text-align: center !important;}
+.et_pb_team_member_description {text-align: left;padding-top: 30px !important;}
+
+}
+
+@media screen and ( max-width: 782px ) {
+.footer-columns .et_pb_column{width: 100% !important; }
+
+}
+
+/*-------------------[480px]------------------*/
+@media only screen and ( max-width: 767px ) {
+.homepage-large-text {position: relative; top: -30px !important; height: 30px !important;}
+.theme_4 .testi-wrapper .quotes .quote-content a{line-height: 25px;}
+.theme_4 .testi-wrapper .quotes .quote-content{width: 100%; margin: 0 auto;}
+.theme_4 .testi-wrapper .quotes .quote-content a{ font-size: 15px !important;}	
+div.testimonial-bg {background-size: 300px 130px;}
+#footer-copyright-text {text-align: center;}
+#footer-copyright-links {text-align: center !important;}
+.footer-social-icons {margin: 0 auto !important; text-align: center;margin-left: 35% !important;}
+.footer-social-icons i{float: left; padding-right: 20px; color: #fff !important;}
+.image-phone-1-text {top: 0px;}
+.solutions-phone img {width: 50% !important;}
+.solutions-computer img {width: 90% !important; float: right;padding-top: 15%;}
+.text-white-box p{text-align: center !important;}
+.consulting-divs .et_pb_row_fullwidth {
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-wrap: wrap; /* Safari 6.1+ */
+flex-wrap: wrap;
+}
+
+	
+.consulting-col2{
+-webkit-order: 1 !important;
+order: 1 !important;
+}
+ 
+.consulting-col1{
+-webkit-order: 2 !important;
+order: 2 !important;
+}
+}
+
+/*-------------------[320px]------------------*/
+@media only screen and ( max-width: 479px ) {
+.et_pb_text ul, .et_pb_text ol { margin: 10px; }
+.gform_fields input {width: 100% !important;}
+
+}
+
+/*-------------------[480px]------------------*/
+@media only screen and ( max-width: 767px ) {
+.et_pb_team_member {margin-bottom: 20px !important;}
+}
